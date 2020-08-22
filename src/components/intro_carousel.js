@@ -5,47 +5,33 @@ import CarouselImg2 from "../images/index/carousel_img_2"
 import CarouselImg3 from "../images/index/carousel_img_3"
 import CarouselImg4 from "../images/index/carousel_img_4"
 import CarouselImg5 from "../images/index/carousel_img_5"
+import CarouselImg6 from "../images/index/carousel_img_6"
 
 const IntroCarousel = () => (
-  <Carousel touch="true">
+  <Carousel touch>
     <Carousel.Item>
       <CarouselImg1 className="d-block w-100" />
       <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h3>Restorations</h3>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
       <CarouselImg2 />
-
-      <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
       <CarouselImg3 />
-
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
       <CarouselImg4 />
-
       <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h3>Resto-Mods</h3>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
       <CarouselImg5 />
-
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <CarouselImg6 />
     </Carousel.Item>
   </Carousel>
 )

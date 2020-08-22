@@ -7,7 +7,7 @@ const CarouselImg4 = () => {
     query {
       placeholderImage: file(relativePath: { eq: "index/carousel4.png" }) {
         childImageSharp {
-          fluid(maxWidth: 1080) {
+          fluid(maxWidth: 1440) {
             ...GatsbyImageSharpFluid
           }
         }

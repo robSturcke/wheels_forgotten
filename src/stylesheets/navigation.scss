@@ -1,12 +1,29 @@
 .nav_wrap {
+  background: $primary;
+  border-bottom: 3px inset $highlight_variant;
   nav.navbar {
-    background-color: $alt;
-    max-width: 1280px;
+    background-color: $primary;
+    max-width: 1440px;
     margin: auto;
+
     .navbar_brand {
       display: block;
       margin: auto;
       width: 150px;
+    }
+
+    .navbar-collapse {
+      .navbar-nav {
+        .nav-link {
+          color: darken($color: $alt, $amount: 15%);
+          font-weight: 700;
+          font-size: 1.5rem;
+
+          &:hover {
+            color: lighten($color: $alt, $amount: 15%);
+          }
+        }
+      }
     }
   }
 }

@@ -1,6 +1,7 @@
 @import "_variables.scss";
+@import "contact.scss";
 @import "navigation.scss";
-@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans:wght@400;600;700&display=swap");
 
 // font-family: 'Didact Gothic', sans-serif;
 // font-family: 'Open Sans', sans-serif;
@@ -9,24 +10,34 @@
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background: $alt;
-  font-family: "Noto Sans JP", sans-serif;
+  background: $primary_variant;
+  font-family: "Open Sans", sans-serif;
 
   main {
     flex-grow: 1;
   }
 }
 
+.wrap {
+  max-width: 1440px;
+  margin: auto;
+}
+
 footer {
   background: $primary;
+  border-top: 3px solid $highlight_variant;
   color: $alt;
-  font-family: "Didact Gothic", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
 
-  a {
-    color: $alt;
+  .footer_txt {
+    margin: 3.5rem auto 5.5rem auto;
+    a {
+      color: $highlight;
 
-    &:hover {
-      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }
