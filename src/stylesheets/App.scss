@@ -1,0 +1,32 @@
+@import "_variables.scss";
+@import "navigation.scss";
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap");
+
+// font-family: 'Didact Gothic', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+
+.content {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: $alt;
+  font-family: "Noto Sans JP", sans-serif;
+
+  main {
+    flex-grow: 1;
+  }
+}
+
+footer {
+  background: $primary;
+  color: $alt;
+  font-family: "Didact Gothic", sans-serif;
+
+  a {
+    color: $alt;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
