@@ -1,0 +1,11 @@
+.carousel_wrap {
+  width: 100%;
+  @include grad;
+}
+
+ul.index_services {
+  list-style-type: square;
+  font-size: 1.2rem;
+  color: $primary;
+  font-weight: 600;
+}

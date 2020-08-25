@@ -19,6 +19,12 @@ module.exports = {
         useResolveUrlLoader: true,
       },
     },
+    {
+      resolve: "gatsby-source-instagram",
+      options: {
+        username: `972556615`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

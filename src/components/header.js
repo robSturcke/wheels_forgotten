@@ -9,7 +9,7 @@ const isActive = ({ isPartiallyCurrent }) => {
 }
 
 const activeStyle = {
-  color: "rgb(207, 207, 216)",
+  color: "rgb(30, 35, 108)",
 }
 
 const Header = ({ siteTitle }) => (

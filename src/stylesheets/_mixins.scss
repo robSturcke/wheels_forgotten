@@ -1,0 +1,19 @@
+@mixin grad {
+  background: rgb(30, 35, 108);
+  background: -moz-linear-gradient(
+    top,
+    rgba(30, 35, 108, 1) 0%,
+    rgba(220, 223, 234, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(30, 35, 108, 1) 0%,
+    rgba(220, 223, 234, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(30, 35, 108, 1) 0%,
+    rgba(220, 223, 234, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e236c', endColorstr='#dcdfea',GradientType=0 );
+}

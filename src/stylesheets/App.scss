@@ -1,20 +1,32 @@
+@import "_mixins.scss";
 @import "_variables.scss";
 @import "contact.scss";
+@import "index.scss";
 @import "navigation.scss";
 @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans:wght@400;600;700&display=swap");
 
 // font-family: 'Didact Gothic', sans-serif;
 // font-family: 'Open Sans', sans-serif;
-
+// 220 223 234
 .content {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background: $primary_variant;
   font-family: "Open Sans", sans-serif;
 
   main {
     flex-grow: 1;
+    background: lighten($color: $primary_variant, $amount: 5%);
+
+    h1 {
+      font-weight: 700;
+      color: $primary;
+    }
+
+    h2 {
+      font-weight: 600;
+      color: $primary;
+    }
   }
 }
 
@@ -25,7 +37,7 @@
 
 footer {
   background: $primary;
-  border-top: 3px solid $highlight_variant;
+  border-top: 3px solid $highlight;
   color: $alt;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;

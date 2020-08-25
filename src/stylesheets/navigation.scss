@@ -1,10 +1,12 @@
 .nav_wrap {
-  background: $primary;
-  border-bottom: 3px inset $highlight_variant;
+  background: $alt;
+  border-bottom: 3px inset $highlight;
   nav.navbar {
-    background-color: $primary;
+    background-color: $alt;
     max-width: 1440px;
     margin: auto;
+    // font-family: "Didact Gothic", sans-serif;
+    letter-spacing: 0.02rem;
 
     .navbar_brand {
       display: block;
@@ -15,12 +17,11 @@
     .navbar-collapse {
       .navbar-nav {
         .nav-link {
-          color: darken($color: $alt, $amount: 15%);
           font-weight: 700;
           font-size: 1.5rem;
 
           &:hover {
-            color: lighten($color: $alt, $amount: 15%);
+            color: $primary;
           }
         }
       }
