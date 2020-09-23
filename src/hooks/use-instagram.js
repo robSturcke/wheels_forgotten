@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 const useInstagram = () => {
   const data = useStaticQuery(graphql`
     query {
-      allInstaNode(limit: 18) {
+      allInstaNode(limit: 10) {
         nodes {
           id
           caption

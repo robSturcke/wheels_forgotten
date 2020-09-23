@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: "gatsby-source-instagram",
       options: {
-        username: `972556615`,
+        username: `40283398828`,
       },
     },
     `gatsby-transformer-sharp`,

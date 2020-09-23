@@ -3,13 +3,58 @@ import Layout from "../components/layout"
 import AboutWF from "../components/about/about_wf"
 import AboutVehicles from "../components/about/about_vehicles"
 import SEO from "../components/seo"
+import InnerContainers from "../components/inner_containers"
+import CarouselImg5 from "../images/index/carousel_img_5"
+import Insta from "../components/insta"
+import DeTomaso from "../images/index/de_tomaso"
+import KawasakiGSXR from "../images/about/kawawsaki_gsxr"
+import FordCrownCarousel from "../components/about/ford_crown_carousel"
 
 const About = () => (
   <div>
     <Layout>
       <SEO title="About Wheels Forgotten and Phil Jones" />
-      <AboutWF />
-      <AboutVehicles />
+      <div className="wrap">
+        <InnerContainers>
+          <div className="col-md-8">
+            <AboutWF />
+          </div>
+          <div className="col-md-4">
+            <KawasakiGSXR />
+            <figure className="figure">
+              <figcaption className="figure-caption">
+                2009 Kawasaki Versys and 1996 GSXR-100W: Full Restorations
+              </figcaption>
+            </figure>
+          </div>
+
+          <div className="col-md-6">
+            <DeTomaso />
+            <figure className="figure">
+              <figcaption className="figure-caption">
+                1981 Dodge Omni DeTomaso. 1 of 600 made. Possibly the nicest
+                most complete one left in existence. Found seriously neglected.
+                Fixed the rust, restored the original paint,{" "}
+                <strong>sold</strong> to a L body enthusiast.
+              </figcaption>
+            </figure>
+          </div>
+          <div className="col-md-6">
+            <FordCrownCarousel />
+            <figure className="figure">
+              <figcaption className="figure-caption">
+                1999 Ford Crown Victoria LX: PI heads and cam swap, 3.73 trac
+                lock, 1 piece aluminum driveshaft, hand ported manifold, shaved
+                body work and marauder spoiler...
+              </figcaption>
+            </figure>
+          </div>
+          <div className="col-md-12">
+            <AboutVehicles />
+            <Insta />
+          </div>
+        </InnerContainers>
+      </div>
     </Layout>
   </div>
 )

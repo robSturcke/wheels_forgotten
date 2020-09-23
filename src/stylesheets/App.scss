@@ -1,13 +1,11 @@
 @import "_mixins.scss";
 @import "_variables.scss";
+@import "about.scss";
 @import "contact.scss";
 @import "index.scss";
 @import "navigation.scss";
 @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans:wght@400;600;700&display=swap");
 
-// font-family: 'Didact Gothic', sans-serif;
-// font-family: 'Open Sans', sans-serif;
-// 220 223 234
 .content {
   display: flex;
   min-height: 100vh;
@@ -16,11 +14,10 @@
 
   main {
     flex-grow: 1;
-    background: lighten($color: $primary_variant, $amount: 5%);
+    @include bottom_grad;
 
     h1 {
       font-weight: 700;
-      color: $primary;
     }
 
     h2 {
@@ -33,6 +30,15 @@
 .wrap {
   max-width: 1440px;
   margin: auto;
+}
+
+.insta_icon_link {
+  width: 35px;
+}
+
+.spacer {
+  margin-top: 10rem;
+  width: 100%;
 }
 
 footer {

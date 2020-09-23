@@ -1,11 +1,41 @@
-.carousel_wrap {
-  width: 100%;
-  @include grad;
+.hero_header {
+  margin-top: 3rem;
+  color: $primary_alt;
+  font-size: 3rem;
 }
 
-ul.index_services {
-  list-style-type: square;
-  font-size: 1.2rem;
+.hero_sub_header {
   color: $primary;
-  font-weight: 600;
+}
+
+.bottom_wrap {
+  width: 100%;
+  @include bottom_grad;
+}
+
+.services {
+  .card {
+    max-width: 450px;
+    margin: 1rem auto;
+    background-color: rgba(0, 0, 0, 0);
+
+    .card-header {
+      background-color: $primary;
+      color: $alt;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    .list-group {
+      background-color: $alt_opac;
+      .list-group-item {
+        background-color: rgba(0, 0, 0, 0);
+        color: $primary;
+        .list_icon {
+          margin-top: -0.04rem;
+          width: 20px;
+          fill: $primary;
+        }
+      }
+    }
+  }
 }

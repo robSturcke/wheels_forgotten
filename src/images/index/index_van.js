@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const IndexVan = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "index/v_1.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "index/van.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1440) {
             ...GatsbyImageSharpFluid
@@ -15,7 +15,12 @@ const IndexVan = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      style={{ borderRadius: "3px" }}
+      fluid={data.placeholderImage.childImageSharp.fluid}
+    />
+  )
 }
 
 export default IndexVan
