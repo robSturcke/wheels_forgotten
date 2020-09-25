@@ -6,9 +6,10 @@ import SEO from "../components/seo"
 import InnerContainers from "../components/inner_containers"
 import CarouselImg5 from "../images/index/carousel_img_5"
 import Insta from "../components/insta"
-import DeTomaso from "../images/index/de_tomaso"
 import KawasakiGSXR from "../images/about/kawawsaki_gsxr"
 import FordCrownCarousel from "../components/about/ford_crown_carousel"
+import Chevy4400Carousel from "../components/about/chevy_4400_carousel"
+import DetomasoCarousel from "../components/about/detomaso_carousel"
 
 const About = () => (
   <div>
@@ -16,9 +17,6 @@ const About = () => (
       <SEO title="About Wheels Forgotten and Phil Jones" />
       <div className="wrap">
         <InnerContainers>
-          <div className="col-md-8">
-            <AboutWF />
-          </div>
           <div className="col-md-4">
             <KawasakiGSXR />
             <figure className="figure">
@@ -27,15 +25,16 @@ const About = () => (
               </figcaption>
             </figure>
           </div>
-
+          <div className="col-md-8">
+            <AboutWF />
+          </div>
           <div className="col-md-6">
-            <DeTomaso />
+            <Chevy4400Carousel />
             <figure className="figure">
               <figcaption className="figure-caption">
-                1981 Dodge Omni DeTomaso. 1 of 600 made. Possibly the nicest
-                most complete one left in existence. Found seriously neglected.
-                Fixed the rust, restored the original paint,{" "}
-                <strong>sold</strong> to a L body enthusiast.
+                1957 Chevrolet 4400: Found rotting in a farm field. Shortened,
+                6lug, flatbed, 4spd sm420, custom wiring harness and dash, 350
+                swap in progress, 12 bolt swap in progress
               </figcaption>
             </figure>
           </div>
@@ -46,6 +45,17 @@ const About = () => (
                 1999 Ford Crown Victoria LX: PI heads and cam swap, 3.73 trac
                 lock, 1 piece aluminum driveshaft, hand ported manifold, shaved
                 body work and marauder spoiler...
+              </figcaption>
+            </figure>
+          </div>
+          <div className="col-md-6">
+            <DetomasoCarousel />
+            <figure className="figure">
+              <figcaption className="figure-caption">
+                1981 Dodge Omni DeTomaso. 1 of 600 made. Possibly the nicest
+                most complete one left in existence. Found seriously neglected.
+                Fixed the rust, restored the original paint,{" "}
+                <strong>sold</strong> to a L body enthusiast.
               </figcaption>
             </figure>
           </div>
