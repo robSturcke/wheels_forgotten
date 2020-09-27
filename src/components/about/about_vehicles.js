@@ -22,7 +22,7 @@ const AboutVehicles = () => (
     </p>
     <p>
       {lug} 1971 AMC Matador Sedan. 9000 original miles. Bought at auction. Road
-      tripped it home. Cleaned dup and fixed. <strong>Sold</strong> to collector
+      tripped it home. Cleaned up and fixed. <strong>Sold</strong> to collector.
     </p>
   </>
 )
