@@ -11,6 +11,19 @@
     margin: auto;
     letter-spacing: 0.02rem;
 
+    button.navbar-toggler {
+      border: 1px solid $primary;
+      &:active,
+      &:focus {
+        outline-color: $primary;
+      }
+
+      .icon {
+        width: 32px;
+        fill: $primary;
+      }
+    }
+
     .navbar_brand {
       display: block;
       margin: auto;

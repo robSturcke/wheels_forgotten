@@ -18,9 +18,7 @@ const About = () => (
       <div className="wrap">
         <InnerContainers>
           <div className="col-md-4">
-            <div className="pt-3">
-              <KawasakiGSXR />
-            </div>
+            <KawasakiGSXR />
             <figure className="figure">
               <figcaption className="figure-caption">
                 2009 Kawasaki Versys and 1996 GSXR-100W
