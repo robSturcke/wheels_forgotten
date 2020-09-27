@@ -1,5 +1,6 @@
+import { Link } from "gatsby"
 import React from "react"
-import Kawasaki from "../../images/index/kawasaki"
+import Fairlane from "../../images/index/fairlane"
 
 const AboutBlurb = () => (
   <>
@@ -11,7 +12,7 @@ const AboutBlurb = () => (
       wheels and an engine we're probably interested.
     </h3>
     <div className="py-3">
-      <Kawasaki />
+      <Fairlane />
     </div>
     <div className="py-3">
       <h4 className="hero_sub_header">
@@ -19,6 +20,9 @@ const AboutBlurb = () => (
         and everything in between come along with the territory.
       </h4>
     </div>
+    <Link className="float-right" to="about">
+      Read More...
+    </Link>
   </>
 )
 

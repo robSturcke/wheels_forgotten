@@ -23,7 +23,7 @@ const About = () => (
             </div>
             <figure className="figure">
               <figcaption className="figure-caption">
-                2009 Kawasaki Versys and 1996 GSXR-100W: Full Restorations
+                2009 Kawasaki Versys and 1996 GSXR-100W
               </figcaption>
             </figure>
           </div>
@@ -37,7 +37,7 @@ const About = () => (
                 <figcaption className="figure-caption">
                   1957 Chevrolet 4400: Found rotting in a farm field. Shortened,
                   6lug, flatbed, 4spd sm420, custom wiring harness and dash, 350
-                  swap in progress, 12 bolt swap in progress
+                  swap in progress, 12 bolt swap in progress.
                 </figcaption>
               </figure>
             </div>
@@ -49,7 +49,7 @@ const About = () => (
                 <figcaption className="figure-caption">
                   1999 Ford Crown Victoria LX: PI heads and cam swap, 3.73 trac
                   lock, 1 piece aluminum driveshaft, hand ported manifold,
-                  shaved body work and marauder spoiler...
+                  shaved body work and marauder spoiler.
                 </figcaption>
               </figure>
             </div>
@@ -74,7 +74,7 @@ const About = () => (
                 <figcaption className="figure-caption">
                   1988 Plymouth Voyager LE. Garage find. Found preserved after
                   sitting over 4 years. Lowered 3”, 1991 6G72 swap, 10:1
-                  Diamante Pistons, head work, custom exhaust
+                  Diamante Pistons, head work, custom exhaust.
                 </figcaption>
               </figure>
             </div>
