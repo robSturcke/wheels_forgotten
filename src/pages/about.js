@@ -18,7 +18,7 @@ const About = () => (
       <div className="wrap">
         <InnerContainers>
           <div className="col-md-4">
-            <div className="pt-4">
+            <div className="pt-3">
               <KawasakiGSXR />
             </div>
             <figure className="figure">

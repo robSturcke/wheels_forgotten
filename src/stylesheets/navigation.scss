@@ -35,17 +35,17 @@
 
 @media only screen and (max-width: 768px) {
   .nav_wrap {
-    height: 120px;
+    height: 115px;
     nav.navbar {
       background-color: $alt_opac;
 
       .navbar_brand {
-        width: 100px;
+        width: 90px;
       }
     }
   }
 
   .hero_img {
-    margin-top: 120px;
+    margin-top: 115px;
   }
 }

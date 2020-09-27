@@ -88,6 +88,8 @@ export default class ContactForm extends Component {
           <Form.Group controlId="contact.ControlSelect">
             <Form.Label>Desired Service or Inquiry</Form.Label>
             <Form.Control as="select" onChange={this.handleChange}>
+              <option disabled>Select...</option>
+              <option value="General Inquiry">General Inquiry</option>
               <option value="Detailing">Detailing</option>
               <option value="Reconditioning">Reconditioning</option>
               <option value="Restorations">Restorations</option>

@@ -21,9 +21,15 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
       <footer>
-        <div className="text-center footer_txt">
-          © {new Date().getFullYear()}, Built by robSturcke •{` `}
-          <a href="https://www.wheelsforgotten.com">Wheels Forgotten</a>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="text-center footer_txt">
+                © {new Date().getFullYear()}, Built by robSturcke •{` `}
+                <a href="https://www.wheelsforgotten.com">Wheels Forgotten</a>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
     </div>

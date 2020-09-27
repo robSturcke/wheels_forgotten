@@ -16,7 +16,7 @@ const Insta = () => {
                 className="insta_link float-right"
                 href={`https://instagram.com/wheelsforgotten`}
               >
-                Checkout Our Latest Motor Works
+                Checkout Our Latest Work
               </a>
             </h4>
           </div>
@@ -27,7 +27,7 @@ const Insta = () => {
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "space-between",
-          margin: "1rem -0.5rem",
+          margin: ".5rem -0.5rem 3rem -0.5rem",
           padding: "0.5rem 0",
         }}
       >
