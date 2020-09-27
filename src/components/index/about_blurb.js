@@ -13,8 +13,14 @@ const AboutBlurb = () => (
     </h3>
     <div className="py-3">
       <Fairlane />
+      <figure className="figure">
+        <figcaption className="figure-caption">
+          1966 Ford Fairlane. Full frame off restoration in progress. 1971 Honda
+          CL175. Dug out of the mud. 4 year restoration in progress.
+        </figcaption>
+      </figure>
     </div>
-    <div className="py-3">
+    <div className="pb-1">
       <h4 className="hero_sub_header">
         While motorcycles are our true passion; cars, trucks, tractors, go karts
         and everything in between come along with the territory.
