@@ -12,12 +12,7 @@ const Contact = () => (
       <InnerContainers>
         <div className="col-md-12">
           <div className="col-md-12">
-            <h1 className="contact_header text-center">
-              Contact Us Today{" "}
-              <small>
-                <a href="tel:12409252566">240-925-2566</a>
-              </small>
-            </h1>
+            <h1 className="contact_header text-center">Contact Us Today</h1>
           </div>
         </div>
         <div className="col-sm-6">
