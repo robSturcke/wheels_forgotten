@@ -12,3 +12,11 @@
     margin-bottom: 0;
   }
 }
+
+p {
+  .list_icon {
+    margin-top: -0.04rem;
+    width: 20px;
+    fill: $primary;
+  }
+}

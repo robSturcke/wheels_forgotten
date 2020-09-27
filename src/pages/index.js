@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import IndexVan from "../images/index/index_van"
@@ -13,7 +12,7 @@ import CarouselImg3 from "../images/index/carousel_img_3"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Wheels Forgotten" />
     <IndexHero />
     <div className="wrap">
       <div className="container-fluid">

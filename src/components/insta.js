@@ -5,7 +5,6 @@ import Arrow from "../images/arrow"
 
 const Insta = () => {
   const instaPhotos = useInstagram()
-  const { username } = instaPhotos[0]
 
   return (
     <>
@@ -17,8 +16,7 @@ const Insta = () => {
                 className="insta_link float-right"
                 href={`https://instagram.com/wheelsforgotten`}
               >
-                Checkout Our Latest Motor Works{" "}
-                <Arrow baseLayer="insta_icon_link" />
+                Checkout Our Latest Motor Works
               </a>
             </h4>
           </div>

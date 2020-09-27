@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Wheels Forgotten`,
-    description: `Resto-Mods, Motorcycles and Parts`,
+    description: `Focusing on the un-loved, weird, or just plain old-fashioned. If it has wheels and an engine we're probably interested. Detailing, Reconditioning, Restorations, Revivals/First Starts and Drives, Paint Correction, Welding and Minor Fabrication, General Mechanics, Rust Repair, Body Work, Engine Swaps, Parts Sales, Car and Motorcycle Sales in Maryland`,
     author: `robSturcke`,
   },
   plugins: [

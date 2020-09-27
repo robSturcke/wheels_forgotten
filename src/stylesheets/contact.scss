@@ -4,5 +4,19 @@ form.contact_form {
       color: $primary;
       font-weight: 600;
     }
+
+    button {
+      background-color: darken($color: $alt, $amount: 45%);
+      border: 1px solid darken($color: $alt, $amount: 45%);
+
+      &:hover {
+        background-color: $primary;
+        text-decoration: none;
+      }
+    }
   }
+}
+
+h1.contact_header {
+  color: $primary;
 }

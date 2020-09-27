@@ -24,6 +24,17 @@
       font-weight: 600;
       color: $primary;
     }
+
+    a,
+    .insta_link {
+      color: darken($color: $alt, $amount: 45%);
+      font-weight: 700;
+
+      &:hover {
+        color: $primary;
+        text-decoration: none;
+      }
+    }
   }
 }
 
