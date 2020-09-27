@@ -3,7 +3,7 @@ import ContactForm from "../components/form"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import InnerContainers from "../components/inner_containers"
-import CarouselImg2 from "../images/index/carousel_img_2"
+import CarouselImg3 from "../images/index/carousel_img_3"
 
 const Contact = () => (
   <Layout>
@@ -22,12 +22,14 @@ const Contact = () => (
         </div>
         <div className="col-sm-6">
           <div className="pt-3">
-            <CarouselImg2 />
+            <ContactForm />
           </div>
         </div>
         <div className="col-sm-6">
           <div className="pt-3">
-            <ContactForm />
+            <div className="py-3">
+              <CarouselImg3 />
+            </div>
           </div>
         </div>
       </InnerContainers>

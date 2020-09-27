@@ -15,7 +15,7 @@ const activeStyle = {
 const Header = ({ siteTitle }) => (
   <header>
     <div className="nav_wrap">
-      <Navbar expand="lg" fixed="top">
+      <Navbar expand="md" fixed="top">
         <Navbar.Brand>
           <Link to="/">
             <img className="navbar_brand" src={Logo} alt={siteTitle} />
