@@ -15,8 +15,8 @@ const AboutBlurb = () => (
       <Fairlane />
       <figure className="figure">
         <figcaption className="figure-caption">
-          1966 Ford Fairlane. Full frame off restoration in progress. 1971 Honda
-          CL175. Dug out of the mud. 4 year restoration in progress.
+          1966 Ford Fairlane. Full frame off restoration in progress. 1982 Honda
+          FT500 Ascot.
         </figcaption>
       </figure>
     </div>
