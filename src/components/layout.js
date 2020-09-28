@@ -25,7 +25,15 @@ const Layout = ({ children }) => {
           <div className="row">
             <div className="col-md-12">
               <div className="text-center footer_txt">
-                © {new Date().getFullYear()}, Built by robSturcke •{` `}
+                © {new Date().getFullYear()}, Built by{" "}
+                <a
+                  href="https://robsturcke.dev"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  robSturcke
+                </a>{" "}
+                •{` `}
                 <a href="https://www.wheelsforgotten.com">Wheels Forgotten</a>
               </div>
             </div>
