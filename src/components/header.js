@@ -5,6 +5,8 @@ import Logo from "../images/WF.svg"
 import { Link } from "gatsby"
 import MenuIcon from "../images/menu_icon"
 import CloseIcon from "../images/close_icon"
+import Youtube from "../images/youtube"
+import LogoInstagram from "../images/logo_instagram"
 
 const isActive = ({ isPartiallyCurrent }) => {
   return isPartiallyCurrent ? { className: "active" } : null
@@ -65,6 +67,26 @@ const Header = ({ siteTitle }) => {
                 >
                   CONTACT
                 </Link>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://www.youtube.com/channel/UCttQB8TBpRwh3BM4-nGL6Sg"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <Youtube baseLayer="nav_icon" />
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://instagram.com/wheelsforgotten"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <LogoInstagram baseLayer="nav_icon" />
+                </a>
               </li>
             </Nav>
           </Navbar.Collapse>

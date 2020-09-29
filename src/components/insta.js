@@ -1,7 +1,6 @@
 import React from "react"
 import Image from "gatsby-image"
 import useInstagram from "../hooks/use-instagram"
-import Arrow from "../images/arrow"
 
 const Insta = () => {
   const instaPhotos = useInstagram()
