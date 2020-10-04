@@ -7,6 +7,7 @@ import MenuIcon from "../images/menu_icon"
 import CloseIcon from "../images/close_icon"
 import Youtube from "../images/youtube"
 import LogoInstagram from "../images/logo_instagram"
+import EbayLogo from "../images/ebay_logo"
 
 const isActive = ({ isPartiallyCurrent }) => {
   return isPartiallyCurrent ? { className: "active" } : null
@@ -67,6 +68,22 @@ const Header = ({ siteTitle }) => {
                 >
                   CONTACT
                 </Link>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://www.ebay.com/usr/pbjones92"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <EbayLogo
+                    baseLayer="ebay_icon"
+                    color0="color0"
+                    color1="color1"
+                    color2="color2"
+                    color3="color3"
+                  />
+                </a>
               </li>
               <li className="nav-item">
                 <a

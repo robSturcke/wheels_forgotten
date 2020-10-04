@@ -37,6 +37,30 @@
           font-size: 1.5rem;
           color: darken($color: $alt, $amount: 45%);
 
+          .ebay_icon {
+            width: 60px;
+            margin-top: -0.3rem;
+            fill: darken($color: $alt, $amount: 45%);
+
+            &:hover {
+              .color0 {
+                fill: #e53238;
+              }
+
+              .color1 {
+                fill: #0064d2;
+              }
+
+              .color2 {
+                fill: #f5af02;
+              }
+
+              .color3 {
+                fill: #86b817;
+              }
+            }
+          }
+
           .nav_icon {
             width: 30px;
             margin-top: -0.3rem;
