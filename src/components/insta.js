@@ -7,7 +7,7 @@ import _get from "lodash/get"
 const Insta = ({ text }) => {
   const data = useStaticQuery(graphql`
     query InstagramQuery {
-      allInstagramContent(limit: 27) {
+      allInstagramContent(limit: 17) {
         edges {
           node {
             caption
@@ -32,8 +32,10 @@ const Insta = ({ text }) => {
         <span>
           <a
             className="insta_link"
-            href={`https://instagram.com/glam_by_jam_nj`}
-          ></a>
+            href={`https://instagram.com/wheelsforgotten`}
+          >
+            Check Out Our Latest Work!
+          </a>
         </span>
       </div>
       <div
