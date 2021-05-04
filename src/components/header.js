@@ -9,10 +9,6 @@ import Youtube from "../images/youtube"
 import LogoInstagram from "../images/logo_instagram"
 import EbayLogo from "../images/ebay_logo"
 
-const isActive = ({ isPartiallyCurrent }) => {
-  return isPartiallyCurrent ? { className: "active" } : null
-}
-
 const activeStyle = {
   color: "rgb(30, 35, 108)",
 }

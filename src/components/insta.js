@@ -1,62 +1,75 @@
 import React from "react"
-import Image from "gatsby-image"
-import useInstagram from "../hooks/use-instagram"
+import Img from "gatsby-image"
+import LogoInstagram from "../images/logo_instagram"
+import { useStaticQuery, graphql } from "gatsby"
+import _get from "lodash/get"
 
-const Insta = () => {
-  const instaPhotos = useInstagram()
+const Insta = ({ text }) => {
+  const data = useStaticQuery(graphql`
+    query InstagramQuery {
+      allInstagramContent(limit: 27) {
+        edges {
+          node {
+            caption
+            localImage {
+              childImageSharp {
+                fixed(width: 120, height: 120, quality: 100) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  let instaImages = _get(data, "allInstagramContent.edges")
 
   return (
-    <>
-      <div className="row">
-        <div className="col-12">
-          <div className="mt-3">
-            <h4>
-              <a
-                className="insta_link float-right"
-                href={`https://instagram.com/wheelsforgotten`}
-              >
-                Checkout Our Latest Work
-              </a>
-            </h4>
-          </div>
-        </div>
+    <div className="col-12">
+      <div className="mt-3">
+        <span>
+          <a
+            className="insta_link"
+            href={`https://instagram.com/glam_by_jam_nj`}
+          ></a>
+        </span>
       </div>
       <div
+        className="mb-5"
         style={{
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "space-between",
-          margin: ".5rem -0.5rem 3rem -0.5rem",
+          margin: "0rem -0.5rem",
           padding: "0.5rem 0",
         }}
       >
-        {instaPhotos.map(photo => (
-          <a
-            href={`https://instagram.com/p/${photo.id}/`}
+        {instaImages.map((item, i) => (
+          <div
+            key={i}
             style={{
               boxShadow: 0,
               display: "block",
               margin: "0.5rem",
               maxWidth: "calc(33% - 1rem)",
               width: "120px",
-              transition: "200ms box-shadow linear",
             }}
-            key={photo.id}
           >
-            <Image
-              key={photo.id}
+            <Img
+              alt={item.node.caption}
+              fixed={item.node.localImage.childImageSharp.fixed}
               style={{
                 width: "100%",
                 marginTop: 0,
-                borderRadius: "3px",
+                transition: "200ms box-shadow linear",
               }}
-              fluid={photo.fluid}
-              alt={photo.caption}
             />
-          </a>
+          </div>
         ))}
       </div>
-    </>
+    </div>
   )
 }
 
