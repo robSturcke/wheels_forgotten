@@ -1,13 +1,13 @@
 import React from "react"
 import ContactForm from "../components/form"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import InnerContainers from "../components/inner_containers"
 import CarouselImg3 from "../images/index/carousel_img_3"
 
 const Contact = () => (
   <Layout>
-    <SEO title="Contact Wheels Forgotten" />
+    <Seo title="Contact Wheels Forgotten" />
     <div className="wrap">
       <InnerContainers>
         <div className="col-md-12">

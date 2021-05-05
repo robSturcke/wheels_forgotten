@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import IndexVan from "../images/index/index_van"
 import AboutBlurb from "../components/index/about_blurb"
 import IndexHero from "../components/index/index_hero"
@@ -12,7 +12,7 @@ import CarouselImg3 from "../images/index/carousel_img_3"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Wheels Forgotten" />
+    <Seo title="Wheels Forgotten" />
     <IndexHero />
     <div className="wrap">
       <div className="container-fluid">

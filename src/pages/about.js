@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import AboutWF from "../components/about/about_wf"
 import AboutVehicles from "../components/about/about_vehicles"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import InnerContainers from "../components/inner_containers"
 import Insta from "../components/insta"
 import KawasakiGSXR from "../images/about/kawawsaki_gsxr"
@@ -14,7 +14,7 @@ import VoyagerCarousel from "../components/about/voyager_carousel"
 const About = () => (
   <div>
     <Layout>
-      <SEO title="About Wheels Forgotten and Phil Jones" />
+      <Seo title="About Wheels Forgotten and Phil Jones" />
       <div className="wrap">
         <InnerContainers>
           <div className="col-md-4">
