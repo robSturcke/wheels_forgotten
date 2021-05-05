@@ -7,7 +7,7 @@ import _get from "lodash/get"
 const Insta = ({ text }) => {
   const data = useStaticQuery(graphql`
     query InstagramQuery {
-      allInstagramContent(limit: 17) {
+      allInstagramContent(limit: 40) {
         edges {
           node {
             caption
